@@ -1,5 +1,7 @@
-// Delete everything between <div class="site-page-content"> and </div><!-- .site-page-content --> to get rid of the latest posts on the home page. 
-// Updates to the theme cause it to be overwritten of course
+/* Delete everything between <div class="site-page-content"> and </div><!-- .site-page-content --> to get rid of the latest posts on the home page. 
+* Updates to the theme cause it to be overwritten of course
+* Add a &nbsp; to let the footer breath
+*/
 
 <?php get_header(); ?>
 
