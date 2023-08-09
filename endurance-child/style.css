@@ -1,0 +1,154 @@
+/**
+ * Theme Name:   Endurance Child
+ * Theme URI:    https://www.ilovewp.com/themes/endurance/
+ * Description:  Endurance Child Theme
+ * Author:       
+ * Author URI:   http://example.com
+ * Template:     endurance
+ * Version: 1.0.0
+ * Requires PHP: 5.6
+ * Author: ilovewpcom
+ * Author URI: https://www.ilovewp.com/
+ * License: GNU General Public License v3 or later
+ * License URI: http://www.gnu.org/licenses/gpl-3.0.html
+ * Text Domain: endurance-child
+ *
+ * @format
+ */
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #01280c;
+}
+
+h1 a:hover,
+h1 a:focus,
+h2 a:hover,
+h2 a:focus,
+h3 a:hover,
+h3 a:focus,
+h4 a:hover,
+h4 a:focus,
+h5 a:hover,
+h5 a:focus,
+h6 a:hover,
+h6 a:focus {
+  color: #938670;
+}
+a {
+  color: #01280c;
+}
+a:hover,
+a:focus {
+  color: #938670;
+}
+
+body {
+  background: #f4f4f4;
+  color: #01280c;
+}
+.site-section-wrapper {
+  background-color: #f4f4f4;
+}
+
+.page-title {
+  color: #7698a0;
+}
+
+.ilovewp-featured-page-item .entry-preview-wrapper {
+  background-color: #d4d4ce;
+}
+
+/*the welcome square*/
+.page-intro-welcome {
+  background-color: #7698a0;
+}
+
+/*gets rid of bottom border on front page*/
+#home-featured-pages {
+  border-bottom: none 3px #333;
+  padding-bottom: 10px;
+}
+
+.entry-tagline a:hover,
+.entry-tagline a:focus {
+  color: #938670;
+}
+
+.large-nav a:hover,
+.large-nav a:focus,
+.large-nav .current-menu-item > a,
+.large-nav .current_page_item > a,
+.large-nav .current-menu-parent > a {
+  color: #938670;
+  text-decoration: none;
+}
+.site-column-aside .widget_nav_menu .menu-item a:hover,
+.site-column-aside .widget_nav_menu .menu-item a:focus {
+  color: #7698a0;
+  text-decoration: none;
+}
+
+/*display archive in block not grid*/
+.site-archive-posts {
+  display: block;
+}
+
+/*audio player padding*/
+.wp-block-audio {
+  padding: 1em 0 0.5em 0;
+}
+/*search button*/
+button,
+input[type="button"],
+input[type="submit"] {
+  background-color: #7698a0;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: #01280c;
+}
+.entry-tagline {
+  display: none;
+}
+
+.entry-tagline a {
+  color: #938670;
+  text-decoration: none;
+}
+
+.entry-tagline a:hover,
+.entry-tagline a:focus {
+  display: none;
+  color: #938670;
+  text-decoration: underline;
+}
+
+.pagination .current,
+.pagination a:hover,
+.pagination a:focus {
+  background-color: #7698a0;
+  border-color: #7698a0;
+  color: #fff;
+}
+.pagination a {
+  color: #7698a0;
+}
+
+#site-footer {
+  background-color: #d4d4ce;
+  border-top: solid 10px #d4d4ce;
+  color: #01280c;
+}
+#site-footer .site-section-wrapper {
+  background-color: #d4d4ce;
+  padding: 20px 0px;
+}
+#site-footer-credit {
+  background-color: #01280c;
+  color: #01280c;
+}
